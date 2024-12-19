@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://KinTran.github.io/zh-Hant/blog</id>
+    <id>https://KinTran.github.io/demo/zh-Hant/blog</id>
     <title>Demo Blog</title>
     <updated>2024-10-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://KinTran.github.io/zh-Hant/blog"/>
+    <link rel="alternate" href="https://KinTran.github.io/demo/zh-Hant/blog"/>
     <subtitle>Demo Blog</subtitle>
-    <icon>https://KinTran.github.io/zh-Hant/img/logo.svg</icon>
+    <icon>https://KinTran.github.io/demo/zh-Hant/img/logo.svg</icon>
     <entry>
         <title type="html"><![CDATA[Announcing Yew 0.22]]></title>
-        <id>https://KinTran.github.io/zh-Hant/blog/2024/10/14/release-0-22</id>
-        <link href="https://KinTran.github.io/zh-Hant/blog/2024/10/14/release-0-22"/>
+        <id>https://KinTran.github.io/demo/zh-Hant/blog/2024/10/14/release-0-22</id>
+        <link href="https://KinTran.github.io/demo/zh-Hant/blog/2024/10/14/release-0-22"/>
         <updated>2024-10-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[What's new]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's new<a href="https://kintran.github.io/zh-Hant/blog/2024/10/14/release-0-22#whats-new" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ssr-on-wasi">SSR on WASI<a href="https://kintran.github.io/zh-Hant/blog/2024/10/14/release-0-22#ssr-on-wasi" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's new<a href="https://kintran.github.io/demo/zh-Hant/blog/2024/10/14/release-0-22#whats-new" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ssr-on-wasi">SSR on WASI<a href="https://kintran.github.io/demo/zh-Hant/blog/2024/10/14/release-0-22#ssr-on-wasi" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <p>Before Yew 0.22, server-side rendering (SSR) was only possible on the native target. With Yew 0.22, you can now render your Yew application on the WebAssembly System Interface (WASI) target.</p>
 <p>Since the old SSR implementation will create new tasks directly in the asynchronous context directly (based on <code>prokio</code>). It only allowed in a multi-threaded environment that it is not compatible with WASI. So the new version added a dedicated one for a single-threaded environment that rendering function to support single-threaded scenes.</p>
 <p>Learn more at <a href="https://github.com/yewstack/yew/tree/master/examples/wasi_ssr_module/src/main.rs" target="_blank" rel="noopener noreferrer">Server-side rendering example on WASI environment</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-for-contributors">Call for Contributors<a href="https://kintran.github.io/zh-Hant/blog/2024/10/14/release-0-22#call-for-contributors" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-for-contributors">Call for Contributors<a href="https://kintran.github.io/demo/zh-Hant/blog/2024/10/14/release-0-22#call-for-contributors" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
 <p>The Yew project thrives on community involvement, and we welcome contributors with open arms. Whether you're an experienced Rust developer or just starting your journey, there are plenty of ways to get involved and make a meaningful impact on Yew's growth.</p>
 <p>Here are some areas where you can contribute:</p>
 <ul>
@@ -37,7 +37,7 @@
 </ul>
 <p>Contributing to open-source projects like Yew is not only a way to give back to the community but also an excellent opportunity to learn, collaborate, and enhance your skills.</p>
 <p>To get started, check out the Yew GitHub repository and the contribution guidelines. Your contributions are highly appreciated and play a crucial role in shaping the future of Yew. Join us in this exciting journey!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks">Thanks!<a href="https://kintran.github.io/zh-Hant/blog/2024/10/14/release-0-22#thanks" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks">Thanks!<a href="https://kintran.github.io/demo/zh-Hant/blog/2024/10/14/release-0-22#thanks" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
 <p>Many people came together to create Yew 0.22. We couldn't have done it without all of you. Thanks!</p>
 <p>See <a href="https://github.com/yewstack/yew/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">the full changelog</a></p>]]></content>
         <author>
@@ -47,25 +47,25 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Yew 0.21]]></title>
-        <id>https://KinTran.github.io/zh-Hant/blog/2023/09/23/release-0-21</id>
-        <link href="https://KinTran.github.io/zh-Hant/blog/2023/09/23/release-0-21"/>
+        <id>https://KinTran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21</id>
+        <link href="https://KinTran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21"/>
         <updated>2023-09-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Yew development team is thrilled to unveil Yew 0.21.0, a significant milestone in the journey of empowering developers to create dependable and high-performance web applications with Rust.]]></summary>
         <content type="html"><![CDATA[<p>The Yew development team is thrilled to unveil Yew 0.21.0, a significant milestone in the journey of empowering developers to create dependable and high-performance web applications with Rust.
 Let's dive into the major highlights of this release.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's new<a href="https://kintran.github.io/zh-Hant/blog/2023/09/23/release-0-21#whats-new" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-changing-signatures-a-shift-in-hook-dependencies">1. Changing Signatures: A Shift in Hook Dependencies<a href="https://kintran.github.io/zh-Hant/blog/2023/09/23/release-0-21#1-changing-signatures-a-shift-in-hook-dependencies" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's new<a href="https://kintran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21#whats-new" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-changing-signatures-a-shift-in-hook-dependencies">1. Changing Signatures: A Shift in Hook Dependencies<a href="https://kintran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21#1-changing-signatures-a-shift-in-hook-dependencies" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <p>One of the significant changes in Yew 0.21 is the adjustment to the signature of hooks that accept dependencies.
 Dependencies used to be passed as the second argument after the closure. However, now they're passed as the first argument before the closure.</p>
 <div class="language-rust codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-rust codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token function" style="color:rgb(130, 170, 255)">use_effect_with_deps</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token plain">deps</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> </span><span class="token keyword" style="font-style:italic">move</span><span class="token plain"> </span><span class="token closure-params closure-punctuation punctuation" style="color:rgb(199, 146, 234)">|</span><span class="token closure-params">deps</span><span class="token closure-params punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token closure-params"> </span><span class="token closure-params class-name" style="color:rgb(255, 203, 107)">Vec</span><span class="token closure-params operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token closure-params keyword" style="font-style:italic">i32</span><span class="token closure-params operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token closure-params closure-punctuation punctuation" style="color:rgb(199, 146, 234)">|</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    </span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic">// Do something with dependencies</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>The reason behind swapping the order of dependencies in the code snippet is to address a specific use case.
 In situations where the same value is needed both to compute a dependency and to be moved by value into the closure, the new order simplifies the code and improves readability and ergonomics.</p>
 <p>This is a big breaking change so we've provided <a href="https://yew.rs/docs/migration-guides/yew/from-0_20_0-to-0_21_0#automated-refactor" target="_blank" rel="noopener noreferrer">a way to automate the refactor</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-versatile-child-types">2. Versatile Child Types<a href="https://kintran.github.io/zh-Hant/blog/2023/09/23/release-0-21#2-versatile-child-types" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-versatile-child-types">2. Versatile Child Types<a href="https://kintran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21#2-versatile-child-types" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <p>Yew now allows you to use any type as children within your components. This means you're no longer limited to just the <code>Children</code> type.
 Instead, you can use any type, even <code>Html</code> or closures, unlocking patterns such as:</p>
 <div class="language-rust codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-rust codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token macro property">html!</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    </span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token class-name" style="color:rgb(255, 203, 107)">Comp</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain">p</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token class-name" style="color:rgb(255, 203, 107)">RenderProps</span><span class="token operator" style="color:rgb(137, 221, 255)">|</span><span class="token plain"> </span><span class="token macro property">html!</span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token string" style="color:rgb(195, 232, 141)">"Hello, "</span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token plain">p</span><span class="token punctuation" style="color:rgb(199, 146, 234)">.</span><span class="token plain">name</span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    </span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token class-name" style="color:rgb(255, 203, 107)">Comp</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-agents-a-complete-rewrite">3. Agents: A Complete Rewrite<a href="https://kintran.github.io/zh-Hant/blog/2023/09/23/release-0-21#3-agents-a-complete-rewrite" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-agents-a-complete-rewrite">3. Agents: A Complete Rewrite<a href="https://kintran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21#3-agents-a-complete-rewrite" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <p>Yew 0.21 brings a complete rewrite of <code>yew-agent</code>. This streamlines and simplifies the way workers operate. Here's what you need to know:</p>
 <ul>
 <li>
@@ -88,9 +88,9 @@ Instead, you can use any type, even <code>Html</code> or closures, unlocking pat
 </li>
 </ul>
 <p>Learn more in <a href="https://docs.rs/yew-agent/latest/yew_agent/" target="_blank" rel="noopener noreferrer">documentation of yew-agent</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-performance-improvements-a-faster-and-smoother-experience">4. Performance Improvements: A Faster and Smoother Experience<a href="https://kintran.github.io/zh-Hant/blog/2023/09/23/release-0-21#4-performance-improvements-a-faster-and-smoother-experience" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-performance-improvements-a-faster-and-smoother-experience">4. Performance Improvements: A Faster and Smoother Experience<a href="https://kintran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21#4-performance-improvements-a-faster-and-smoother-experience" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <p>Yew 0.21 brings substantial performance improvements. Your web applications will run faster and more efficiently, thanks to optimizations that reduce memory usage and enhance rendering.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-for-contributors">Call for Contributors<a href="https://kintran.github.io/zh-Hant/blog/2023/09/23/release-0-21#call-for-contributors" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="call-for-contributors">Call for Contributors<a href="https://kintran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21#call-for-contributors" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
 <p>The Yew project thrives on community involvement, and we welcome contributors with open arms. Whether you're an experienced Rust developer or just starting your journey, there are plenty of ways to get involved and make a meaningful impact on Yew's growth.</p>
 <p>Here are some areas where you can contribute:</p>
 <ul>
@@ -109,7 +109,7 @@ Instead, you can use any type, even <code>Html</code> or closures, unlocking pat
 </ul>
 <p>Contributing to open-source projects like Yew is not only a way to give back to the community but also an excellent opportunity to learn, collaborate, and enhance your skills.</p>
 <p>To get started, check out the Yew GitHub repository and the contribution guidelines. Your contributions are highly appreciated and play a crucial role in shaping the future of Yew. Join us in this exciting journey!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks">Thanks!<a href="https://kintran.github.io/zh-Hant/blog/2023/09/23/release-0-21#thanks" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks">Thanks!<a href="https://kintran.github.io/demo/zh-Hant/blog/2023/09/23/release-0-21#thanks" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
 <p>Many people came together to create Yew 0.21. We couldn't have done it without all of you. Thanks!</p>
 <p>See <a href="https://github.com/yewstack/yew/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer">the full changelog</a></p>]]></content>
         <author>
@@ -119,23 +119,23 @@ Instead, you can use any type, even <code>Html</code> or closures, unlocking pat
     </entry>
     <entry>
         <title type="html"><![CDATA[Releasing Yew 0.20]]></title>
-        <id>https://KinTran.github.io/zh-Hant/blog/2022/11/24/release-0-20</id>
-        <link href="https://KinTran.github.io/zh-Hant/blog/2022/11/24/release-0-20"/>
+        <id>https://KinTran.github.io/demo/zh-Hant/blog/2022/11/24/release-0-20</id>
+        <link href="https://KinTran.github.io/demo/zh-Hant/blog/2022/11/24/release-0-20"/>
         <updated>2022-11-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The Yew team is happy to announce a new, long overdue, version of Yew: v0.20.]]></summary>
         <content type="html"><![CDATA[<p>The Yew team is happy to announce a new, long overdue, version of Yew: v0.20.
 Yew is a framework for creating reliable and efficient web applications.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's new<a href="https://kintran.github.io/zh-Hant/blog/2022/11/24/release-0-20#whats-new" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's new<a href="https://kintran.github.io/demo/zh-Hant/blog/2022/11/24/release-0-20#whats-new" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
 <p>This release comes with new features aimed at improving the user experience, such as server-rendering and render-as-you-fetch approach for data-fetching.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ssr">SSR<a href="https://kintran.github.io/zh-Hant/blog/2022/11/24/release-0-20#ssr" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ssr">SSR<a href="https://kintran.github.io/demo/zh-Hant/blog/2022/11/24/release-0-20#ssr" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <p>Yew now fully supports rendering on the server. Rendering on the server means users will get a rendered HTML and will not have to wait to be able to see anything until the entire WebAssembly bundle is downloaded and initial render has completed. With SSR, the page will be visible instantly, and interactable as soon as hydration finishes.</p>
-<p>Learn more at <a href="https://kintran.github.io/zh-Hant/docs/advanced-topics/server-side-rendering">Server-side rendering</a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-fetching">Data fetching<a href="https://kintran.github.io/zh-Hant/blog/2022/11/24/release-0-20#data-fetching" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
+<p>Learn more at <a href="https://kintran.github.io/demo/zh-Hant/docs/advanced-topics/server-side-rendering">Server-side rendering</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-fetching">Data fetching<a href="https://kintran.github.io/demo/zh-Hant/blog/2022/11/24/release-0-20#data-fetching" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h3>
 <p>With SSR comes new ways of data-fetching. The newly added <a href="https://api.yew.rs/next/yew/functional/macro.use_prepared_state.html" target="_blank" rel="noopener noreferrer"><code>use_prepared_state!</code></a> hook can be used to fetch data while rendering on the server and seemlessly use it in the component.</p>
-<p>For client-side fetching, Yew now supports render-as-you-fetch approach with <a href="https://kintran.github.io/zh-Hant/docs/concepts/suspense">Suspense</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-upgrade">How to upgrade<a href="https://kintran.github.io/zh-Hant/blog/2022/11/24/release-0-20#how-to-upgrade" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
-<p>There have been breaking changes in this release. Our <a href="https://kintran.github.io/zh-Hant/docs/migration-guides/yew/from-0_19_0-to-0_20_0">migration guides</a> go over how to upgrade each over of the new crates.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks">Thanks!<a href="https://kintran.github.io/zh-Hant/blog/2022/11/24/release-0-20#thanks" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<p>For client-side fetching, Yew now supports render-as-you-fetch approach with <a href="https://kintran.github.io/demo/zh-Hant/docs/concepts/suspense">Suspense</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-to-upgrade">How to upgrade<a href="https://kintran.github.io/demo/zh-Hant/blog/2022/11/24/release-0-20#how-to-upgrade" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
+<p>There have been breaking changes in this release. Our <a href="https://kintran.github.io/demo/zh-Hant/docs/migration-guides/yew/from-0_19_0-to-0_20_0">migration guides</a> go over how to upgrade each over of the new crates.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="thanks">Thanks!<a href="https://kintran.github.io/demo/zh-Hant/blog/2022/11/24/release-0-20#thanks" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2>
 <p>Many people came together to help make this release happen. We couldn't have done it without all of you. Thanks!</p>]]></content>
         <author>
             <name>Muhammad Hamza</name>
@@ -145,8 +145,8 @@ Yew is a framework for creating reliable and efficient web applications.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Yew]]></title>
-        <id>https://KinTran.github.io/zh-Hant/blog/2022/01/20/hello-yew</id>
-        <link href="https://KinTran.github.io/zh-Hant/blog/2022/01/20/hello-yew"/>
+        <id>https://KinTran.github.io/demo/zh-Hant/blog/2022/01/20/hello-yew</id>
+        <link href="https://KinTran.github.io/demo/zh-Hant/blog/2022/01/20/hello-yew"/>
         <updated>2022-01-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is the first Yew blog post.]]></summary>
         <content type="html"><![CDATA[<p>This is the first Yew blog post.</p>
