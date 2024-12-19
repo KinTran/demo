@@ -8,7 +8,7 @@ module.exports = {
     tagline:
         'Empowering Documentation with Docusaurus: Building, Customizing, and Automating Docs',
     url: 'https://KinTran.github.io',
-    baseUrl: '/',
+    baseUrl: '/demo/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/logo.svg',
