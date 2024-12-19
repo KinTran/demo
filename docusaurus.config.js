@@ -7,12 +7,12 @@ module.exports = {
     title: 'Demo',
     tagline:
         'Empowering Documentation with Docusaurus: Building, Customizing, and Automating Docs',
-    url: 'https://yew.rs',
+    url: 'https://KinTran.github.io',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/logo.svg',
-    organizationName: 'yewstack', // Usually your GitHub org/user name.
+    organizationName: 'KinTran', // Usually your GitHub org/user name.
     projectName: 'demo', // Usually your repo name.
     themeConfig: {
         docs: {
