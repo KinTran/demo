@@ -127,6 +127,9 @@ module.exports = {
             insights: true, // Optional, automatically send insights when user interacts with search results
             searchPagePath: 'search',
         },
+        metadata: [
+            { name: 'algolia-site-verification', content: '3ACAA3D29FA457F6' },
+        ],
     },
     i18n: {
         defaultLocale: 'en',
