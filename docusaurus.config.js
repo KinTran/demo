@@ -120,9 +120,9 @@ module.exports = {
             additionalLanguages: ['rust', 'toml'],
         },
         algolia: {
-            appId: 'F8S2ICRD2T',
-            apiKey: '2a1c25e8b0a9c95d6d71658887ad4466',
-            indexName: 'yew-rs',
+            appId: '5L7HLR5EFP',
+            apiKey: '5b9a7b8afd7985f2870d696afb31cd7e',
+            indexName: 'kintran_github_io_5l7hlr5efp_pages',
             contextualSearch: true,
             insights: true, // Optional, automatically send insights when user interacts with search results
             searchPagePath: 'search',
@@ -154,10 +154,6 @@ module.exports = {
                     editUrl,
                 },
                 pages: {},
-                gtag: {
-                    trackingID: 'G-DENCL8P4YP',
-                    anonymizeIP: true,
-                },
             },
         ],
     ],
